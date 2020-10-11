@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://react-redux.realworld.io",
+  "env": {
+    "cy_userName": "luzhongkui@hotmail.com",
+    "cy_passWord": "Luzk@19690210"
+  },
+  "reporter": "Cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptopms": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "projectId": "p3a43m"
+}
